@@ -59,7 +59,6 @@ img {
 }
 
 .hero,
-.section-work,
 .section-team {
   padding: 120px 0;
 }
@@ -313,7 +312,7 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-list li {
+.portfolio-li {
   width: calc((100% - 48px) / 3);
 }
 
@@ -356,20 +355,20 @@ img {
 }
 
 .link-logo-footer {
-  color: var(--color-primary-brand);
+  /* color: var(--color-primary-brand);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16667;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 16px; */
   display: inline-block;
 }
 
 .logo-part-footer {
   color: var(--color-light);
-  display: inline-block;
+ 
 }
 
 .text-footer {
