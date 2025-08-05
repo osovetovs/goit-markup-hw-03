@@ -73,7 +73,6 @@ img {
   width: 1158px;
 }
 
-
 .header {
   display: flex;
   align-items: center;
@@ -99,11 +98,9 @@ img {
   align-items: center;
 }
 
-
 .nav-list {
   display: flex;
   align-items: center;
-  
 }
 
 .nav-list-link {
@@ -191,7 +188,7 @@ img {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  min-width: 169px
+  min-width: 169px;
 }
 
 .hero-button:hover,
@@ -203,6 +200,18 @@ img {
 .section-features {
   background-color: var(--color-white-background);
   padding-top: 120px;
+}
+
+.text-title {
+  color: var(--color-dark);
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .features-list {
@@ -232,38 +241,6 @@ img {
   letter-spacing: 0.32px;
 }
 
-.section-work .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.section-work {
-  background-color: var(--color-white-background);
-}
-
-.work-title {
-  color: var(--color-dark);
-  text-align: center;
-  font-family: inherit;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11111;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.work-list {
-  display: flex;
-  gap: 24px;
-}
-
-.work-list-li {
-  width: calc((100% - 2 * 24px) / 3);
-  background-color: var(--color-white-background);
-}
-
 .section-team .container {
   display: flex;
   align-items: center;
@@ -286,22 +263,12 @@ img {
 
 .team-list-li {
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-title {
-  color: var(--color-dark);
-  text-align: center;
-  font-family: inherit;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11111;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
 
 .team-list-title {
   color: var(--color-dark);
@@ -344,6 +311,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-part-footer {
@@ -360,10 +328,8 @@ img {
   width: 264px;
 }
 
-.section-portfolio-buttons {
-
-  padding-top: 96px;
-  padding-bottom: 120px;
+.section-portfolio {
+  padding: 120px 0 120px 0;
 }
 
 .button {
