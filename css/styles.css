@@ -67,12 +67,10 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1158px;
-  display: flex;
-  align-items: center;
   width: 1158px;
 }
 
-.header {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -250,7 +248,7 @@ img {
   letter-spacing: 0.32px;
 }
 
-.section-team .container {
+.team-container {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -362,7 +360,7 @@ img {
 }
 
 
-/* .footer .container {
+/* .footer-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
