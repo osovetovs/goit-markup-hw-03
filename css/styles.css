@@ -32,7 +32,6 @@ ul {
 
 a {
   text-decoration: none;
-  display: inline-block;
 }
 
 button {
@@ -88,10 +87,12 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-part {
   color: var(--color-dark);
+  display: inline-block;
 }
 
 .main-nav {
@@ -123,10 +124,6 @@ img {
 .nav-list-link:active {
   color: var(--color-pressed-states);
 }
-
-/* .link-active {
-  color: var(--color-pressed-states);
-} */
 
 .nav-list,
 .contacts-list {
