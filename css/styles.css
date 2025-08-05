@@ -197,7 +197,7 @@ img {
 
 .section-features {
   background-color: var(--color-white-background);
-  padding: 120px 0
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -227,7 +227,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  
 }
 
 .features-list-li {
@@ -280,7 +279,6 @@ img {
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-
 .team-list-title {
   color: var(--color-dark);
   text-align: center;
@@ -302,13 +300,10 @@ img {
   margin-bottom: 32px;
 }
 
-
-
 .section-portfolio {
   padding: 120px 0 120px 0;
   background-color: var(--color-white-background);
 }
-
 
 .portfolio-list {
   display: flex;
@@ -316,6 +311,9 @@ img {
   align-content: stretch;
   gap: 24px;
   row-gap: 48px;
+}
+.portfolio-list li:first-child {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-li {
