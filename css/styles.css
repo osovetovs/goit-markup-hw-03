@@ -74,6 +74,10 @@ header .container {
   display: flex;
   align-items: center;
 }
+.header {
+  display: flex;
+  align-items: center;
+}
 
 .link-logo {
   color: var(--color-primary-brand);
