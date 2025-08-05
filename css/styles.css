@@ -32,6 +32,7 @@ ul {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 button {
@@ -311,7 +312,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
+  
 }
 
 .logo-part-footer {
@@ -382,7 +383,7 @@ img {
 }
 
 .portfolio-list-li {
-  width: calc((100% - 2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-title {
